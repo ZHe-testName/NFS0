@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.hide{
+    display: none;
+}
+
+.game{
+    height: 100vh;
+    width: 60%;
+    background: transparent url(./image/road_top_view_trees_123199_1920x1200.jpg) center / cover no-repeat;
+    overflow: hidden;
+    
+}
+
+
+.car{
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background: transparent url(./image/player.png) center / cover no-repeat;
+    left: 125px;
+    bottom: 10px;
+}
+
+
+.enemy{
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background: transparent url() center / cover no-repeat;
+    left: 125px;
+    bottom: 10px;
+}
+
+.gameArea{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: rgb(41, 40, 40);
+    position: relative;
+    margin: auto;
+    border-left: 5px solid rgb(22, 22, 22);
+    border-right: 5px solid rgb(22, 22, 22);
+    overflow: hidden;
+    box-shadow: 0 0 50px brown , 0 0 40px rgb(173, 91, 36); 
+}
+
+.line{
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    left: 145px;
+    background: rgb(212, 212, 212);
+}
+
+.start{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+    text-align: center;
+    z-index: 200;
+    color: aliceblue;
+    font-size: 1.5rem;
+    background: black;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.score{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    z-index: 200;
+    color: skyblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    background: black;
+}
+
