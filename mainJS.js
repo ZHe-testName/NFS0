@@ -45,7 +45,7 @@ function addScore(){
 
 function startGame(){
     embed.setAttribute('autostart', 'true');
-    embed.setAttribute('src', './audio/fonovaya-muzyka-dlya-igr-1.mp3');
+    // embed.setAttribute('src', './audio/fonovaya-muzyka-dlya-igr-1.mp3');
     
     game.append(embed);
     start.classList.add("hide");
